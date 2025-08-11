@@ -1,46 +1,80 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RyEig_hB)
-# 🎨 Assignment: CSS Basics & The Box Model
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawn Musula - My Beautiful Baby Girl</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1 id="site-title">Dawn Musula</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#about">About Dawn</a></li>
+                <li><a href="#milestones">Milestones</a></li>
+                <li><a href="#memories">Memories</a></li>
+            </ul>
+        </nav>
+    </header>
 
-## Overview
+    <main class="content">
+        <section id="about" class="section">
+            <h2>About My Baby Girl</h2>
+            <p class="intro-text">Dawn Musula is my precious 10-month-old daughter, a bundle of joy who brightens every day with her beautiful smile and expressive personality.</p>
+            
+            <div class="feature-cards">
+                <article class="card primary">
+                    <h3>Her Beautiful Features</h3>
+                    <p>Dawn has gorgeous chocolate skin that glows with health and happiness. Her two little teeth peek out when she gives her adorable smiles that melt everyone's heart.</p>
+                </article>
+                
+                <article class="card secondary">
+                    <h3>Expressive Personality</h3>
+                    <p>She loves to express herself with animated gestures, sweet babbles, and the most precious facial expressions. Every day she shows us more of her unique personality.</p>
+                </article>
+                
+                <article class="card tertiary">
+                    <h3>Special Bond</h3>
+                    <p>Dawn is deeply bonded with her mum, showing the beautiful connection between mother and daughter. She finds comfort and joy in mummy's presence.</p>
+                </article>
+            </div>
+        </section>
 
-This assignment introduces you to the foundational principles of CSS—how to style web content, apply essential styling properties, and understand the powerful concept of the CSS Box Model. You’ll practice writing clean, organized CSS that brings structure and visual appeal to an HTML page.
+        <section id="milestones" class="section highlight">
+            <h2>Dawn's Amazing Milestones</h2>
+            <ul class="service-list">
+                <li class="service-item">First beautiful smiles</li>
+                <li class="service-item">Rolling over like a little champion</li>
+                <li class="service-item">Sitting up and exploring the world</li>
+                <li class="service-item featured">Two precious teeth! 🦷✨</li>
+            </ul>
+        </section>
 
-## Objective
+        <aside class="sidebar">
+            <h3>Special Facts About Dawn</h3>
+            <div class="fact-box">
+                <p><strong>Our Little Star:</strong></p>
+                <ul>
+                    <li>Age: 10 months old</li>
+                    <li>Named after her paternal grandmother</li>
+                    <li>Has two adorable teeth</li>
+                    <li>Loves expressing herself</li>
+                    <li>Mummy's special girl</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
 
-Your goal is to create a visually styled web page using only CSS. You will apply basic styling rules to text, backgrounds, and layout elements, and demonstrate an understanding of how the CSS Box Model affects spacing and sizing on the page.
-
-## What You'll Practice
-
-* Connecting CSS to your HTML (external stylesheet)
-* Using basic CSS properties such as `color`, `font-size`, `margin`, `padding`, `border`, and `background`
-* Structuring your layout with awareness of how the Box Model influences spacing and dimensions
-* Writing clean and maintainable CSS selectors and rules
-
-## Instructions
-
-Start with a basic HTML structure and create a separate CSS file named `styles.css`. Link it to your HTML file. Apply various styles to headings, paragraphs, and container sections.
-
-Use the Box Model deliberately—experiment with margin, padding, and borders to see how they affect the layout. Apply background colors to visualize box boundaries. You may also style buttons, navigation, and card-like sections to demonstrate your grasp of spacing and alignment.
-
-No JavaScript or external CSS libraries (like Bootstrap) should be used.
-
-## Deliverables
-
-Submit the following files:
-
-* `index.html`: A basic HTML page with structured content.
-* `styles.css`: Your external stylesheet containing all your CSS rules.
-
-Both files should work together to showcase:
-
-* Proper use of selectors and basic styling properties
-* Clear implementation of the CSS Box Model
-* Consistent spacing, sizing, and layout styling
-
-## Tips
-
-* Correct linkage of HTML and CSS files
-* Use of appropriate CSS selectors and properties
-* Demonstration of the Box Model through visual layout (clear use of margin, padding, and borders)
-* Readability and organization of CSS code (indentation, comments, spacing)
-* Overall appearance and clarity of styled content
+    <footer id="memories" class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 A loving tribute to Dawn Musula, our precious baby girl</p>
+            <div class="contact-info">
+                <span class="email">Named with love</span>
+                <span class="phone">After Grandma Dawn</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
